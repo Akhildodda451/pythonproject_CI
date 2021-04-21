@@ -1,0 +1,6 @@
+file=open("111.c","w")
+file.write("Haha i love you dc")
+file.close()
+file=open("111.c","r")
+print(file.read())
+file.close()
